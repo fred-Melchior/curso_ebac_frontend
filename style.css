@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #353535;
+    padding: 16px 0;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header a{
+    margin-left: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.article article{
+    margin-bottom: 16px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+section#sports{
+    background-color: rgba(0, 155, 0, 0.1);
+}
+
+#sports .article article a{
+    background-color: rgba(0, 155, 0, 0.897);
+}
+
+section#economy{
+    background-color: rgba(236, 236, 7, 0.423);
+}
+
+#economy .article article a{
+    background-color: rgba(236, 190, 7, 0.782);
+}
+
+section#fun{
+    background-color: rgba(171, 15, 195, 0.331);
+}
+
+#fun .article article a{
+    background-color: rgba(156, 4, 180, 0.912);
+}
+
+section#trip{
+    background-color: rgba(15, 195, 189, 0.331);
+}
+
+#trip .article article a{
+    background-color: rgb(2, 193, 187);
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img{
+    width: 100%;
+}
+
+.article article{
+    width: 30%;
+}
+
+.article article{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article a{
+    border-radius: 50%;
+    color: #fff;
+    padding: 8px;
+    margin-left: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.article article h3{
+    font-size: 24px;
+}
